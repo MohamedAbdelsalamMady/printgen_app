@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+  <meta content="" name="keywords">
+    <title>Profile</title>
+    
+
+  <!-- Favicons -->
+  <link rel="icon" type="" href="image/Rectangle.png">
+    <link rel="stylesheet" href="css/account2-style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>       
+          <div class="color">
+        <!-- Main content -->
+        
+          <!-- Header -->
+         
+            <div class="container-fluid">
+              
+               <div class="row">
+                <div class="col">
+                    <h1 style="color: antiquewhite;">
+                      Account Settings
+                    </h1>
+                  </div>
+                
+                  <div class="col mt-4" style="margin-left: 40%; ">
+                    <button type="button" class="btn btn-danger">Log out</button>
+                  </div>
+               </div>
+                  
+             
+
+                        <main class="py-6 bg-surface-secondary">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xl-7 mx-auto">
+                  <!-- Profile picture -->
+                  <div class="card shadow border-0 mt-4 mb-10">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center">
+                        <div>
+                          <div class="d-flex align-items-center">
+                            <a href="#" class="avatar avatar-lg bg-warning rounded-circle text-white">
+                              <img alt="..." src="https://images.unsplash.com/photo-1579463148228-138296ac3b98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=256&h=256&q=80">
+                            </a>
+                            <div class="ms-4">
+                              <span class="h4 d-block mb-0">youssef sharaf</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="ms-auto">
+                          <button type="button" class="btn btn-sm btn-neutral">Select Avatar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Form -->
+                  
+                  <form class="mb-6" action="" method="post" >
+                    <div class="form-head">
+                    <h3 class="" style="color: antiquewhite;">
+                      Contact Information
+                    </h3>
+                  </div>
+                    <div class="row mb-5">
+                      <div class="col-md-6">
+                        <div class="">
+                          <label class="form-label" for="first_name">First name</label>
+                          <input type="text" class="form-control" id="first_name">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="">
+                          <label class="form-label" for="last_name">Last name</label>
+                          <input type="text" class="form-control" id="last_name">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row g-5">
+                      <div class="col-md-6">
+                        <div class="">
+                          <label class="form-label" for="email">Email</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="">
+                          <label class="form-label" for="phone_number">Phone number</label>
+                          <input type="tel" class="form-control" id="phone_number">
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="">
+                          <label class="form-label" for="address">Address</label>
+                          <input type="text" class="form-control" id="address">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="">
+                          <label class="form-label" for="city">City</label>
+                          <input type="text" class="form-control" id="city">
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="">
+                          <label class="form-label" for="country">Country</label>
+                          <select class="form-select" id="country" placeholder="Your email" aria-label="Default select example">
+                            <option selected>Country</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="check_primary_address" id="check_primary_address">
+                          <label class="form-check-label" for="check_primary_address">
+                            Make this my default address
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-end">
+                      <button type="button" class="btn btn-light me-2">Cancel</button>
+                      <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                  </form>
+                  <hr class="my-10" />
+                  <!-- Individual switch cards -->
+                  <div class="row g-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="card shadow" style="margin-top: 10px;">
+                        <div class="card-body">
+                          <h5 class="mb-2">Public profile</h5>
+                          <p class="text-sm text-muted mb-6">
+                            Making your profile public means that anyone on the network will be able to find you.
+                          </p>
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <div class="card shadow " style="margin-top: 10px;">
+                        <div class="card-body">
+                          <h5 class="mb-2">Show my email</h5>
+                          <p class="text-sm text-muted mb-6">
+                            Showing your e-mail adresses means that anyone on the network will be able to find you.
+                          </p>
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </main>
+            </div>
+          
+          <!-- Main -->
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>

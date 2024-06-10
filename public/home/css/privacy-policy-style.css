@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+
+    background-image: url(..//images/gradient-black-purple-linear-5120x2880-c2-000000-9400d3-a-90-f-14.svg);
+
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.navbar{
+    box-shadow:var(--box-shadow);
+}
+
+a{
+    color:var(--dark);
+    text-decoration: none;
+}
+
+
+
+.btn {
+
+padding: 14px 18px;
+border-width: 2px;
+border-radius: 0;
+
+}
+
+
+
+
+
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+#privacy-box{
+	max-width: 650px;
+	background-color: #081F73;
+	color: #fff;
+	
+	padding: 60px 30px;
+	margin-left: 30%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border-radius: 15px;
+}
+#privacy-text{
+	padding: o 20px;
+	height: 400px;
+	overflow-y: auto;
+	font-size: 20px;
+	font-weight: 500;
+	color: #F7F8FF;
+}
+#privacy-text::-webkit-scrollbar{
+	width: 2px;
+	background-color: black;
+}
+#privacy-text::-webkit-scrollbar-thumb{
+	background-color: #d13639;
+}
